@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Store.Customer.Core.Entity
+{
+    public class Product:BaseEntity<int>
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string PictureUrl { get; set; }
+        public decimal Price { get; set; }
+
+
+        public int? productBrandid { get; set; }
+        public ProductBrand productBrand { get; set; }
+
+        public int? productTypeid { get; set; }
+
+        public ProductType productType { get; set; }
+    }
+}

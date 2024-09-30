@@ -1,0 +1,11 @@
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\bin\Debug\net8.0\Store.Customer.Core.deps.json
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\bin\Debug\net8.0\Store.Customer.Core.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\bin\Debug\net8.0\Store.Customer.Core.pdb
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.AssemblyInfoInputs.cache
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.AssemblyInfo.cs
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.csproj.CoreCompileInputs.cache
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\refint\Store.Customer.Core.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\Store.Customer.Core.pdb
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Core\obj\Debug\net8.0\ref\Store.Customer.Core.dll
