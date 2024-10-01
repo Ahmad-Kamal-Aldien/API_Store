@@ -1,7 +1,13 @@
 
 using Microsoft.EntityFrameworkCore;
+using Store.Customer.Core.IRepositories;
+using Store.Customer.Core.IServices.Product;
+using Store.Customer.Core.Mapping.Products;
 using Store.Customer.Repository.Contexts;
 using Store.Customer.Repository.Data;
+using Store.Customer.Repository.Repositories;
+using Store.Customer.Service.Services;
+using System.Reflection;
 
 namespace Store.Customer.API
 {
@@ -20,9 +26,12 @@ namespace Store.Customer.API
             builder.Services.AddDbContext<StoreDBContext>(
                 op=>op.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
+            builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile()));
+            //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            builder.Services.AddScoped<IProductServices, ProductServices>();
 
-           
             var app = builder.Build();
 
 

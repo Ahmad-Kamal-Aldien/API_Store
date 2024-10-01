@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|solutionrelative:store.customer.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.repository\\data\\storedbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|solutionrelative:store.customer.repository\\data\\storedbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.repository\\contexts\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|solutionrelative:store.customer.repository\\contexts\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\entity\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\entity\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\entity\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\entity\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
               "RelativeDocumentMoniker": "Store.Customer.API\\Program.cs",
               "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
               "RelativeToolTip": "Store.Customer.API\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCUAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBwAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:51:16.141Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-01T16:24:58.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoreDBContextSeed.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Data\\StoreDBContextSeed.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Repository\\Data\\StoreDBContextSeed.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Data\\StoreDBContextSeed.cs",
-              "RelativeToolTip": "Store.Customer.Repository\\Data\\StoreDBContextSeed.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAiwAsAAAAqAAAA",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T15:55:18.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StoreDBContext.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Contexts\\StoreDBContext.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Repository\\Contexts\\StoreDBContext.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Contexts\\StoreDBContext.cs",
-              "RelativeToolTip": "Store.Customer.Repository\\Contexts\\StoreDBContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA0AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:17:14.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductType.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\ProductType.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Core\\Entity\\ProductType.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\ProductType.cs",
-              "RelativeToolTip": "Store.Customer.Core\\Entity\\ProductType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:04:58.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\Product.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Core\\Entity\\Product.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\Product.cs",
-              "RelativeToolTip": "Store.Customer.Core\\Entity\\Product.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA4wBAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:02:37.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductBrand.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\ProductBrand.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Core\\Entity\\ProductBrand.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\ProductBrand.cs",
-              "RelativeToolTip": "Store.Customer.Core\\Entity\\ProductBrand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:02:05.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Core\\Entity\\BaseEntity.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\BaseEntity.cs",
-              "RelativeToolTip": "Store.Customer.Core\\Entity\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T09:00:29.582Z"
+              "WhenOpened": "2024-10-01T15:58:56.272Z",
+              "EditorCaption": ""
             }
           ]
         }

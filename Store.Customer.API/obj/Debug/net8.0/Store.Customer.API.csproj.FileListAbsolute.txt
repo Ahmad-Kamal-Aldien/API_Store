@@ -140,3 +140,5 @@ E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.0\Store.Customer.API.pdb
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.0\Store.Customer.API.genruntimeconfig.cache
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.0\ref\Store.Customer.API.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\bin\Debug\net8.0\AutoMapper.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.0\Store.Customer.API.sourcelink.json

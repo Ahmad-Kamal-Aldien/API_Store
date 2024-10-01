@@ -12,8 +12,8 @@ using Store.Customer.Repository.Contexts;
 namespace Store.Customer.Repository.Data.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
-    [Migration("20240930153623_addbrandandtypeandproduct")]
-    partial class addbrandandtypeandproduct
+    [Migration("20241001155347_addproductandtypeandtype")]
+    partial class addproductandtypeandtype
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,6 +33,9 @@ namespace Store.Customer.Repository.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("BrandId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
@@ -42,8 +45,7 @@ namespace Store.Customer.Repository.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PictureUrl")
                         .IsRequired()
@@ -52,17 +54,14 @@ namespace Store.Customer.Repository.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("productBrandid")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("productTypeid")
+                    b.Property<int?>("TypeId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("productBrandid");
+                    b.HasIndex("BrandId");
 
-                    b.HasIndex("productTypeid");
+                    b.HasIndex("TypeId");
 
                     b.ToTable("Product");
                 });
@@ -109,19 +108,19 @@ namespace Store.Customer.Repository.Data.Migrations
 
             modelBuilder.Entity("Store.Customer.Core.Entity.Product", b =>
                 {
-                    b.HasOne("Store.Customer.Core.Entity.ProductBrand", "productBrand")
+                    b.HasOne("Store.Customer.Core.Entity.ProductBrand", "Brand")
                         .WithMany()
-                        .HasForeignKey("productBrandid")
+                        .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.SetNull);
 
-                    b.HasOne("Store.Customer.Core.Entity.ProductType", "productType")
+                    b.HasOne("Store.Customer.Core.Entity.ProductType", "Type")
                         .WithMany()
-                        .HasForeignKey("productTypeid")
+                        .HasForeignKey("TypeId")
                         .OnDelete(DeleteBehavior.SetNull);
 
-                    b.Navigation("productBrand");
+                    b.Navigation("Brand");
 
-                    b.Navigation("productType");
+                    b.Navigation("Type");
                 });
 #pragma warning restore 612, 618
         }

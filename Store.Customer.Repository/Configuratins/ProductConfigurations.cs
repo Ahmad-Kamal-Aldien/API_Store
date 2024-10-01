@@ -13,19 +13,19 @@ namespace Store.Customer.Repository.Configuratins
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.Property(x => x.Name).IsRequired().HasMaxLength(30);
+            builder.Property(x => x.Name).IsRequired();
             builder.Property(x => x.Description).IsRequired();
             builder.Property(x => x.Price).HasColumnType("decimal(18,2)");
-            builder.HasOne(x=>x.productBrand).WithMany()
-                .HasForeignKey(x=>x.productBrandid)
+            builder.HasOne(x=>x.Brand).WithMany()
+                .HasForeignKey(x=>x.BrandId)
                 .OnDelete(DeleteBehavior.SetNull);
 
-            builder.HasOne(x => x.productType).WithMany()
-              .HasForeignKey(x => x.productTypeid)
+            builder.HasOne(x => x.Type).WithMany()
+              .HasForeignKey(x => x.TypeId)
               .OnDelete(DeleteBehavior.SetNull);
 
-            builder.Property(x=>x.productBrandid).IsRequired(false);
-            builder.Property(x=>x.productTypeid).IsRequired(false);
+            builder.Property(x=>x.BrandId).IsRequired(false);
+            builder.Property(x=>x.TypeId).IsRequired(false);
         }
     }
 }

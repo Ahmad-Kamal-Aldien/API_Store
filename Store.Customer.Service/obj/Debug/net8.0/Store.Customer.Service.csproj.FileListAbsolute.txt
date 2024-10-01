@@ -15,3 +15,4 @@ E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Service\obj\Debug\n
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Service\obj\Debug\net8.0\refint\Store.Customer.Service.dll
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Service\obj\Debug\net8.0\Store.Customer.Service.pdb
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Service\obj\Debug\net8.0\ref\Store.Customer.Service.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.Service\obj\Debug\net8.0\Store.Customer.Service.sourcelink.json

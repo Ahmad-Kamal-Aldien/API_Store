@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VbM1GB/iZkW8Ga5IA8iWHshdwWf5mZmFsYav96NqagXuuAtW6yy88xtYG2IQpnzsWFHZ7aLmFAlNYLpJYCYuww==",
+  "dgSpecHash": "/3Q2BITcaoneXHKA4CeXgNlI8wfRXgj9KjdJwoB2IRRs9qCLh8wfYTVl0gTgEskFsyIh60hYl16YdHhLh6dTfA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Service\\Store.Customer.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ahmad\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

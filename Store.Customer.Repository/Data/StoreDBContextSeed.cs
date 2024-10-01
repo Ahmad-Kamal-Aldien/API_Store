@@ -50,8 +50,21 @@ namespace Store.Customer.Repository.Data
 
                 if (Product != null && Product.Count() > 0)
                 {
-                    await _context.AddRangeAsync(Product);
-                    await _context.SaveChangesAsync();
+                    //try
+                    //{
+                    //    await _context.AddRangeAsync(Product);
+                    //    await _context.SaveChangesAsync();
+                    //}
+                    //catch (Exception ex)
+                    //{
+
+                    //    Console.WriteLine(ex.Message);
+                    //}
+                   
+                        await _context.AddRangeAsync(Product);
+                        await _context.SaveChangesAsync();
+                   
+
 
                 }
             }

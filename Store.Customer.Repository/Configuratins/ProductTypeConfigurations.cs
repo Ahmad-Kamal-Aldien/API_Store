@@ -13,7 +13,7 @@ namespace Store.Customer.Repository.Configuratins
     {
         public void Configure(EntityTypeBuilder<ProductType> builder)
         {
-            builder.Property(x=>x.Name).IsRequired();
+            builder.Property(x => x.Name).IsRequired();
         }
     }
 }

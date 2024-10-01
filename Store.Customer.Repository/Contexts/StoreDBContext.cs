@@ -11,10 +11,12 @@ namespace Store.Customer.Repository.Contexts
 {
     public class StoreDBContext:DbContext
     {
-        public StoreDBContext(DbContextOptions option):base(option)
+        public StoreDBContext(DbContextOptions<StoreDBContext> options) : base(options)
         {
-            
+
         }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
