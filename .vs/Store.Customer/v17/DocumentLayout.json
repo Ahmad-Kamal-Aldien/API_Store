@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|solutionrelative:store.customer.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\specifications\\products\\productcountspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\specifications\\products\\productcountspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\specifications\\products\\productspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\specifications\\products\\productspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\specifications\\products\\productspecparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\specifications\\products\\productspecparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
-              "RelativeDocumentMoniker": "Store.Customer.API\\Program.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
-              "RelativeToolTip": "Store.Customer.API\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBwAAABUAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductCountSpecifications.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
+              "RelativeToolTip": "Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:24:58.614Z",
+              "WhenOpened": "2024-10-08T17:24:32.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Store.Customer.Repository\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBwAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProductSpecParameter.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
+              "RelativeToolTip": "Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:58:56.272Z",
+              "WhenOpened": "2024-10-08T17:20:26.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductSpecifications.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",
+              "RelativeToolTip": "Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:20:20.997Z",
               "EditorCaption": ""
             }
           ]

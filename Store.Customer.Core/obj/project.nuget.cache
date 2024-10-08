@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yVj1k4XMW+uQnjr4eFmdia3eKrTCwpmfLTM7ezFO6T/vtGqVjCrTI2qBOW3JvMDKJskHkmNgoY1NAF7IrFYpxQ==",
+  "dgSpecHash": "fZ5JGlXrrtaWKK9IqVe74LcXzWqBhCgetSRIpCWNKPAilYWF9YtYHESdQKvOhddKdPboB6JK6gTHcyKQqSZV3w==",
   "success": true,
   "projectFilePath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Store.Customer.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmad\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\Ahmad\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

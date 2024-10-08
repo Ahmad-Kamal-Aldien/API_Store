@@ -12,7 +12,9 @@ namespace Store.Customer.Core.IRepositories
 
         //Create Only Sp
         //To One Return When Call
-        IGenericRepository<TEntity,TKey>Repository<TEntity, TKey>() where TEntity : BaseEntity<TKey>;
+        IGenericRepository<TEntity, TKey> Repository<TEntity, TKey>() where TEntity : BaseEntity<TKey>;
+
+
         //To Save Changes
         Task<int> CompleteAsync();
     }

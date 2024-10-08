@@ -26,7 +26,7 @@ namespace Store.Customer.API
             builder.Services.AddDbContext<StoreDBContext>(
                 op=>op.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
-            builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile()));
+            builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
             //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

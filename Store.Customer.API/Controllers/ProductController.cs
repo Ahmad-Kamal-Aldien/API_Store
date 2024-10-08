@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Store.Customer.Core.IServices.Product;
+using Store.Customer.Core.Specifications.Products;
 
 namespace Store.Customer.API.Controllers
 {
@@ -14,9 +15,10 @@ namespace Store.Customer.API.Controllers
             _productServices = productServices;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllProduct()
+        public async Task<IActionResult> GetAllProduct([FromQuery] ProductSpecParameter productSpecParameter
+            )
         {
-            var products=await _productServices.GetAllProduct();
+            var products=await _productServices.GetAllProduct(productSpecParameter);
             return Ok(products);
         }
 

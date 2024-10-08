@@ -10,16 +10,29 @@ using System.Threading.Tasks;
 
 namespace Store.Customer.Repository.Repositories
 {
+   
     public class UnitOfWork : IUnitOfWork
     {
       private  StoreDBContext _storeDBContext;
 
         //Store All Used Repository To Used It
         private Hashtable _usedRepository;
+
+        //private static Hashtable _usedRepository;
+
         public UnitOfWork(StoreDBContext storeDBContext)
         {
             _storeDBContext = storeDBContext;
-            _usedRepository=new Hashtable();
+            //_usedRepository=new Hashtable();
+
+            //if (_usedRepository == null)
+            //{
+            //    _usedRepository = new Hashtable();
+
+            //}
+
+            _usedRepository = new Hashtable();
+
         }
         public async Task<int> CompleteAsync()
         {
@@ -31,6 +44,7 @@ namespace Store.Customer.Repository.Repositories
             //var type=typeof(TEntity);
             var type = typeof(TEntity).Name;
 
+            int count = _usedRepository.Count;
 
             if (!_usedRepository.ContainsKey(type)) {
                 var repository = new GenericRepository<TEntity, TKey>(_storeDBContext);

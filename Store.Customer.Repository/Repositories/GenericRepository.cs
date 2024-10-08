@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Customer.Core.Entity;
 using Store.Customer.Core.IRepositories;
+using Store.Customer.Core.ISpecifications;
 using Store.Customer.Repository.Contexts;
 using System;
 using System.Collections.Generic;
@@ -15,12 +16,12 @@ namespace Store.Customer.Repository.Repositories
         StoreDBContext _storeDBContext;
         public GenericRepository(StoreDBContext storeDBContext)
         {
-            _storeDBContext=storeDBContext;
+            _storeDBContext = storeDBContext;
         }
         public async Task AddAsync(TEntity entity)
         {
             await _storeDBContext.AddAsync(entity);
-          
+
         }
 
         public void Delete(TEntity key)
@@ -30,37 +31,62 @@ namespace Store.Customer.Repository.Repositories
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-     
+
             //With Navigation Property
 
             //Temporary solution
 
             if (typeof(TEntity) == typeof(Product))
             {
-                return (IEnumerable<TEntity>) await _storeDBContext.Product.Include(x=>x.Brand).Include(x=>x.Type).ToListAsync();
+                return (IEnumerable<TEntity>)await _storeDBContext.Product.Include(x => x.Brand).Include(x => x.Type).ToListAsync();
 
             }
 
             //Without Navigation Property 
-            return await  _storeDBContext.Set<TEntity>().ToListAsync();
+            return await _storeDBContext.Set<TEntity>().ToListAsync();
 
-            
+
+        }
+
+        public async Task<IEnumerable<TEntity>> GetAllSpecificAsync(ISpecifications<TEntity, TKey> specifications)
+        {
+            return await FixedReturnSpecification(specifications).ToListAsync();
         }
 
         public async Task<TEntity> GetAsync(TKey id)
         {
+
             if (typeof(TEntity) == typeof(Product))
             {
-                return await _storeDBContext.Product.Include(x => x.Brand).Include(x => x.Type).FirstOrDefaultAsync(x=>x.Id==id as int?)as TEntity;
+                return await _storeDBContext.Product.Include(x => x.Brand).Include(x => x.Type).FirstOrDefaultAsync(x => x.Id == id as int?) as TEntity;
 
             }
 
             return await _storeDBContext.Set<TEntity>().FindAsync(id);
+
+
+        }
+
+        public async Task<TEntity> GetWithSpecificAsync(ISpecifications<TEntity, TKey> specifications)
+        {
+            return await FixedReturnSpecification(specifications).FirstOrDefaultAsync();
         }
 
         public void Update(TEntity entity)
         {
-           _storeDBContext.Update(entity);
+            _storeDBContext.Update(entity);
+        }
+
+        public IQueryable<TEntity> FixedReturnSpecification(ISpecifications<TEntity, TKey> specifications)
+        {
+            return  SpecificationsEvaluator<TEntity, TKey>.BuildQuery(_storeDBContext.Set<TEntity>(), specifications);
+
+
+        }
+
+        public async Task<int> GetCountAsync(ISpecifications<TEntity, TKey> specifications)
+        {
+            return await FixedReturnSpecification(specifications).CountAsync();
         }
     }
 }
