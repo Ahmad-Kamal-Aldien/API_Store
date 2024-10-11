@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vyvOd8AkkmiDoScUaGaXlKU4+/co4CPzmO/TFNzqQMplUxoXOyOZAAQEUV5k2najovbVZMvjW82YZ+NEkK5XHw==",
+  "dgSpecHash": "xY5g5P/6Ff3TCZp/jKNOln8jt1lm1HadugXfVSBjkMJxlAIPVXpSjh95Na5A4kB+t4N0q87i9SE1DKDOcu6dsA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Store.Customer.API.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Ahmad\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Ahmad\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

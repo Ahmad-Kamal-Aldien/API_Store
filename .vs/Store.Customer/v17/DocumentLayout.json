@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.repository\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100C61B7-F0BE-4716-A90D-BBF5DD42DB79}|Store.Customer.Repository\\Store.Customer.Repository.csproj|solutionrelative:store.customer.repository\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\irepositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\irepositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\entity\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\entity\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\middlewares\\exceptionmiddlewares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\middlewares\\exceptionmiddlewares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\errors\\apierrorresonse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\errors\\apierrorresonse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\errors\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\errors\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.api\\errors\\apiexceptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE21897-C17F-4624-96EC-14610BE04E9F}|Store.Customer.API\\Store.Customer.API.csproj|solutionrelative:store.customer.api\\errors\\apiexceptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|e:\\projects\\with vs 2022\\route\\store.customer\\store.customer.core\\specifications\\products\\productcountspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AB6B22E-4939-4C62-9309-AA856D6BBC76}|Store.Customer.Core\\Store.Customer.Core.csproj|solutionrelative:store.customer.core\\specifications\\products\\productcountspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +59,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Repository\\Repositories\\BasketRepository.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Repository\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "Store.Customer.Repository\\Repositories\\BasketRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T19:58:38.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\IRepositories\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Core\\IRepositories\\IBasketRepository.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\IRepositories\\IBasketRepository.cs",
+              "RelativeToolTip": "Store.Customer.Core\\IRepositories\\IBasketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T19:56:22.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerBasket.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\CustomerBasket.cs",
+              "RelativeDocumentMoniker": "Store.Customer.Core\\Entity\\CustomerBasket.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Entity\\CustomerBasket.cs",
+              "RelativeToolTip": "Store.Customer.Core\\Entity\\CustomerBasket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T19:53:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiExceptionResponse.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiExceptionResponse.cs",
+              "RelativeDocumentMoniker": "Store.Customer.API\\Errors\\ApiExceptionResponse.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiExceptionResponse.cs",
+              "RelativeToolTip": "Store.Customer.API\\Errors\\ApiExceptionResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T19:47:25.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiValidationErrorResponse.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiValidationErrorResponse.cs",
+              "RelativeDocumentMoniker": "Store.Customer.API\\Errors\\ApiValidationErrorResponse.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiValidationErrorResponse.cs",
+              "RelativeToolTip": "Store.Customer.API\\Errors\\ApiValidationErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:48:55.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
+              "RelativeDocumentMoniker": "Store.Customer.API\\Program.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Program.cs",
+              "RelativeToolTip": "Store.Customer.API\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:40:08.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiErrorResonse.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiErrorResonse.cs",
+              "RelativeDocumentMoniker": "Store.Customer.API\\Errors\\ApiErrorResonse.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Errors\\ApiErrorResonse.cs",
+              "RelativeToolTip": "Store.Customer.API\\Errors\\ApiErrorResonse.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:51:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddlewares.cs",
+              "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Middlewares\\ExceptionMiddlewares.cs",
+              "RelativeDocumentMoniker": "Store.Customer.API\\Middlewares\\ExceptionMiddlewares.cs",
+              "ToolTip": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.API\\Middlewares\\ExceptionMiddlewares.cs",
+              "RelativeToolTip": "Store.Customer.API\\Middlewares\\ExceptionMiddlewares.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:40:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProductCountSpecifications.cs",
               "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
               "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductCountSpecifications.cs",
@@ -39,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ProductSpecParameter.cs",
               "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
               "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductSpecParameter.cs",
@@ -52,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ProductSpecifications.cs",
               "DocumentMoniker": "E:\\Projects\\With VS 2022\\Route\\Store.Customer\\Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",
               "RelativeDocumentMoniker": "Store.Customer.Core\\Specifications\\Products\\ProductSpecifications.cs",

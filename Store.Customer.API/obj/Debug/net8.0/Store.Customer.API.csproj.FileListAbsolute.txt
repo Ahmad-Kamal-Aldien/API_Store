@@ -143,3 +143,5 @@ E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\bin\Debug\net8.0\AutoMapper.dll
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\obj\Debug\net8.0\Store.Customer.API.sourcelink.json
 E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\bin\Debug\net8.0\Store.Customer.API.staticwebassets.runtime.json
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\Projects\With VS 2022\Route\Store.Customer\Store.Customer.API\bin\Debug\net8.0\StackExchange.Redis.dll

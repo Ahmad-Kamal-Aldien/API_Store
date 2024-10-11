@@ -1,5 +1,8 @@
 
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Store.Customer.API.Errors;
+using Store.Customer.API.Middlewares;
 using Store.Customer.Core.IRepositories;
 using Store.Customer.Core.IServices.Product;
 using Store.Customer.Core.Mapping.Products;
@@ -24,7 +27,7 @@ namespace Store.Customer.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<StoreDBContext>(
-                op=>op.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
+                op => op.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
             builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
             //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
@@ -32,33 +35,49 @@ namespace Store.Customer.API
 
             builder.Services.AddScoped<IProductServices, ProductServices>();
 
+            builder.Services.Configure<ApiBehaviorOptions>(op =>
+            {
+
+                op.InvalidModelStateResponseFactory = (acre) =>
+                {
+
+                    var errors = acre.ModelState.Where(x => x.Value.Errors.Count() > 0).SelectMany(x => x.Value.Errors).Select(x => x.ErrorMessage);
+
+                    var response = new ApiValidationErrorResponse()
+                    {
+                        lstErrors = errors
+                    };
+                    return new BadRequestObjectResult(response);
+                };
+            });
+
             var app = builder.Build();
 
 
-            using var servicesscope= app.Services.CreateScope();
+            using var servicesscope = app.Services.CreateScope();
 
-           var serviceprovider= servicesscope.ServiceProvider;
+            var serviceprovider = servicesscope.ServiceProvider;
 
-            var context= serviceprovider.GetRequiredService<StoreDBContext>();
+            var context = serviceprovider.GetRequiredService<StoreDBContext>();
 
             //Loger
-            var logger= serviceprovider.GetRequiredService<ILoggerFactory>();
+            var logger = serviceprovider.GetRequiredService<ILoggerFactory>();
             //Aplay In DB
 
             try
             {
                 await context.Database.MigrateAsync();
-               await StoreDBContextSeed.SeedAsync(context);
+                await StoreDBContextSeed.SeedAsync(context);
 
             }
             catch (Exception ex)
             {
                 var log = logger.CreateLogger<Program>();
 
-                log.LogError(ex,"error in Migration");
+                log.LogError(ex, "error in Migration");
             }
 
-
+            app.UseMiddleware<ExceptionMiddlewares>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
